@@ -23,6 +23,7 @@
     - ca-certificates
     - curl
     - software-properties-common
+    - python3-pip
 
 
 - name: Install Docker key on Ubuntu

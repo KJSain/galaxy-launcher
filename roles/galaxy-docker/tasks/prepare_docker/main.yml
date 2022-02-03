@@ -36,6 +36,7 @@
   docker_image:
     name: "{{galaxy_docker_docker_image}}"
     state: present
+    source: pull
 
 - import_tasks: create_export_folder.yml
   become: "{{galaxy_docker_become}}"
